@@ -1,8 +1,7 @@
 async function processarFaturamento() {
     try {
         // Ler dados do arquivo JSON
-        debugger
-        const resposta = await fetch('dados.json');
+        const resposta = await fetch('dados/dados.json');
         const faturamentoMensal = await resposta.json();
 
         // Filtrar dias válidos (com faturamento > 0)

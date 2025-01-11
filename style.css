@@ -6,10 +6,6 @@ body {
     color: #333;
 }
 
-h2 {
-    color: #007BFF;
-}
-
 button {
     padding: 10px 15px;
     margin-top: 10px;
@@ -47,4 +43,28 @@ section {
 
 .resultados span {
     font-weight: bold;
+}
+
+.resposta {
+    display: none;
+    margin-top: 10px;
+}
+.dropdown-btn {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: none;
+    text-align: left;
+    width: 100%;
+    font-size: 18px;
+}
+.dropdown-btn:hover {
+    background-color: #ddd;
+}
+.dropdown-content {
+    display: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: 10px;
 }
